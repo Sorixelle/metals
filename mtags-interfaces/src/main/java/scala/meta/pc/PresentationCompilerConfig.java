@@ -96,6 +96,11 @@ public interface PresentationCompilerConfig {
 	 */
 	boolean isCompletionSnippetsEnabled();
 
+  /**
+   * Returns true if the completion's description should be included in the label.
+   */
+  boolean isDetailIncludedInLabel();
+
 	/**
 	 * The maximum delay for requests to respond.
 	 *
